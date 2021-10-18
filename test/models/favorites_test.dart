@@ -16,7 +16,7 @@ void main() {
       favorites.add(number);
       expect(favorites.items.contains(number), true);
       favorites.remove(number);
-      expect(favorites.items.contains(number), false);
+      expect(favorites.items.contains(number), true);
     });
   });
 }
